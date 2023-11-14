@@ -1,0 +1,53 @@
+.events{
+
+    &-title{
+        text-align: center;
+        font-size: 4vmin;
+        margin: 50px 0;
+    }
+
+    &-row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content:center;
+        gap: 20px;
+
+        &-col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 400px;
+            gap: 10px;
+
+            h4{
+                font-size: 3vmin;
+                color: $secondary-color;
+                
+            }
+
+            p{
+                text-align: start;
+                word-wrap: wrap;
+                font-size:10px ;
+                color: $thirdy-color;
+                width: 80%;
+
+            }
+            
+            img{
+                width: 80%;
+            }
+        }
+        
+    }
+
+}
+
+
+@media (max-width:768px){
+
+
+}

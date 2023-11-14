@@ -1,0 +1,29 @@
+@import '_color';
+@import '_statics';
+
+
+@import '_navbar';
+@import '_header';
+@import '_events';
+@import '_explore';
+@import '_tours';
+@import '_footer';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: $body-color;
+    overflow-x: hidden;
+}
